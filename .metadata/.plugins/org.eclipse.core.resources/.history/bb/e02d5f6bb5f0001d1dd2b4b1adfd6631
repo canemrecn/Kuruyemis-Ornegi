@@ -1,0 +1,23 @@
+package kö;
+
+public class köö {
+	public static void main(String[] args) {
+		double leblebi = 3.5;
+		double findik = 15.7;
+		double badem = 22;
+		
+		double maliyetTutar = (leblebi*12) + (findik*25) + (badem*40 );
+		
+		double satisTutari = ((leblebi*1.5))*12 + ((findik*1.4)*25) + ((badem*1.6)*40);
+		
+		double karTutar = satisTutari - maliyetTutar;
+		if(karTutar>500)
+		{
+			System.out.println("Kirayi odeyebilirsiniz");
+		}
+		else {
+			System.out.println("Kirayi odemek icin paraniz yeterli degil");
+		}
+	}
+
+}
